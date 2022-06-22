@@ -169,7 +169,7 @@ jobs:
         if: ${{ startsWith(matrix.os, 'ubuntu') && matrix.xprs == 'ON' }}
         uses: actions/checkout@v2
         with:
-          repository: rte-france/xpress-mp
+          repository: jdarlay/xpressmp813Lin
           path: ${{ env.XPRESSDIR }}
           ref: master
           token: ${{ secrets.ACCESS_TOKEN }}
@@ -177,7 +177,7 @@ jobs:
         if: ${{ startsWith(matrix.os, 'windows') && matrix.xprs == 'ON' }}
         uses: actions/checkout@v2
         with:
-          repository: rte-france/xpress-mp-temp
+          repository: jdarlay/xpressmp813Win
           path: ${{ env.XPRESSDIR }}
           ref: master
           token: ${{ secrets.ACCESS_TOKEN }}
