@@ -1469,7 +1469,6 @@ void XpressInterface::ExtractNewConstraints() {
         }
       }
       int res = XPRSloaddelayedrows(mLp, lazyConstraints.size(), lazyConstraints.data());
-      std::cerr << "Added " << lazyConstraints.size() << " lazy constraints with return code = " << res << std::endl;
     } catch (...) {
       // Undo all changes in case of error.
       int const rows = XPRSgetnumrows(mLp);
