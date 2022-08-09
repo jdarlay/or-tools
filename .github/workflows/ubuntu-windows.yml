@@ -92,6 +92,8 @@ jobs:
             dotnet: OFF
             xprs: OFF
             sirius: ON
+            sirius-release-tag: antares-integration-v1.1
+            glpk: OFF
             shared: OFF
             extras: OFF
             publish-or: ON
@@ -102,6 +104,8 @@ jobs:
             dotnet: OFF
             xprs: OFF
             sirius: ON
+            sirius-release-tag: antares-integration-v1.1
+            glpk: OFF
             shared: OFF
             extras: OFF
             publish-or: ON
